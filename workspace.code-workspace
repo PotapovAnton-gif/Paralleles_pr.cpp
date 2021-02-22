@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../Bot/bot"
+		}
+	],
+	"settings": {
+		"python.pythonPath": "/home/antpotapov2019/anaconda3/bin/python",
+		"files.autoSave": "onWindowChange"
+	}
+}
