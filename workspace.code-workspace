@@ -1,11 +1,11 @@
 {
 	"folders": [
 		{
-			"path": "../Bot/bot"
+			"path": "/home/antpotapov2019/Paralleles_pr.cpp/"
 		}
 	],
 	"settings": {
 		"python.pythonPath": "/home/antpotapov2019/anaconda3/bin/python",
-		"files.autoSave": "onWindowChange"
+		"files.autoSave": "afterDelay"
 	}
 }
