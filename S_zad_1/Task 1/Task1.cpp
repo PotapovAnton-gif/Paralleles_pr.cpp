@@ -24,12 +24,12 @@ void *hethread(void *value) {
 
 int main() {
 	
-	pthread_t thid, mythid, hethid;
+	pthread_t thid,heid, mythid, hethid;
 	int result;
 	result = pthread_create(&thid, nullptr, mythread, nullptr);
 
 	int hesult;
-	hesult = pthread_create(&thid, nullptr, hethread, nullptr);
+	hesult = pthread_create(&heid, nullptr, hethread, nullptr);
 
 	if (hesult != 0) {
 		cout << "Error, return value" << hesult << endl;
@@ -49,6 +49,7 @@ int main() {
 	cout << "Thread and result = " << mythid << " " << a << endl;
 
 	pthread_join(thid, nullptr);
+	pthread_join(heid, nullptr);
 
 
 	return 0;
